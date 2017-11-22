@@ -1,0 +1,7 @@
+/robots.txt
+
+/whatever
+
+=> htpasswd
+
+root:dragon => acces admin
